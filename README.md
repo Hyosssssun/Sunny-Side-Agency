@@ -1,18 +1,5 @@
-# Sunny-Side-Agency
-MK Chapter Meeting #21 Project
+<h1 align="center"><a href="https://hyosssssun.github.io/Sunny-Side-Agency/"><b>SunnySide Agency</b></a></h1>
 
- <!-- Hi Make me a Nav Bar with Brand Logo -->
+Codecademy MK chapter project following Frontend Mentor to learn how to work with team and improve my styling skills.
 
-  <!-- Orange with Egg, Headline Statement, Second Header, Paragraph and Link-->
-
-  <!-- Pink Cup, Second Header, Paragraph and Link -->
-
-  <!-- Cherries, Second Header, Paragraph -->
-
-  <!-- Orange, Second Header, Paragraph -->
-
-  <!-- Profile Section, Headline, Profile Picture, paragraph, Bolded Name, Standard Text title, paragraph -->
-
-  <!-- Quad Pic Section -->
-
-  <!-- Footer with social Links -->
+[![image](https://user-images.githubusercontent.com/59310859/202816436-46cf0c38-5f1d-4841-8be3-f3d333935835.png)](https://hyosssssun.github.io/Sunny-Side-Agency/)

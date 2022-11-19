@@ -54,14 +54,12 @@ html {
   font-size: 32px;
 }
 
-
 /*Header*/
 header {
-
   width: 100vw;
   padding: 2rem;
   align-items: center;
-  justify-content: space-between; 
+  justify-content: space-between;
   position: relative;
 }
 
@@ -125,7 +123,7 @@ nav {
   }
 
   #nav-menu:before {
-    content: "";
+    content: '';
     width: 0px;
     height: 0px;
     position: absolute;
@@ -149,24 +147,23 @@ nav {
   }
 
   #burger-icon {
-    display:normal
+    display: normal;
   }
 }
 
-
 /* orange background image*/
-.hero{
- background: lightblue url("images/mobile/image-header.jpg") no-repeat center;
- background-size: cover; 
- height: 100vh;
+.hero {
+  background: lightblue url('images/mobile/image-header.jpg') no-repeat center;
+  background-size: cover;
+  height: 100vh;
 }
 
 /* aligning header and arrow*/
-.hero h1{
+.hero h1 {
   margin-left: auto;
   margin-right: auto;
-  margin-top:20vh;
-  margin-bottom:12vh;
+  margin-top: 20vh;
+  margin-bottom: 12vh;
   color: var(--white);
   letter-spacing: 0.5rem;
   max-width: 70vw;
@@ -176,7 +173,7 @@ nav {
 /* bg-image changes to desktop version at 677px */
 @media only screen and (min-width: 677px) {
   .hero {
-    background-image: url("images/desktop/image-header.jpg");
+    background-image: url('images/desktop/image-header.jpg');
   }
 }
 
@@ -236,11 +233,11 @@ nav {
 }
 
 .link-underline-egg {
-  border-bottom: 10px solid #FBF0B8;
+  border-bottom: 10px solid #fbf0b8;
 }
 
 .link-underline-cup {
-  border-bottom: 10px solid #FFDAD2;
+  border-bottom: 10px solid #ffdad2;
 }
 
 /*Graphic Design and Photography Cards*/
@@ -262,15 +259,15 @@ nav {
   width: 50vw;
   padding: 4rem;
   text-align: center;
-  margin: auto;
+  /* margin: auto; */
   position: absolute;
   align-self: flex-end;
-  color: var(--dark-grayish-blue);
+  color: var(--dark-blue);
 }
 
 .graphic-and-photo .placeholder-text h3 {
   font-size: 2rem;
-  margin-bottom: 15px;
+  margin-bottom: 2rem;
 }
 
 /*mobile graphic */
@@ -283,7 +280,7 @@ nav {
     display: none;
   }
 
-  .graphic-and-photo-mobile{
+  .graphic-and-photo-mobile {
     display: flex;
     width: 100%;
     float: left;
@@ -299,30 +296,28 @@ nav {
   .graphic-and-photo-mobile .placeholder-text {
     float: left;
     width: 100vw;
-    padding: 2rem;
-    padding-top: 25rem;
-    padding-bottom: 10rem;
+    padding: 30rem 5rem 0;
+    /* padding-top: 25rem; */
+    /* padding-bottom: 5rem; */
     text-align: center;
     margin: auto;
     position: absolute;
     align-self: flex-end;
-    color: var(--dark-grayish-blue);
+    color: var(--dark-blue);
     font-size: 1rem;
-}
+  }
 
   .graphic-and-photo-mobile .placeholder-text h3 {
     font-size: 3rem;
-    margin-bottom: 15px;
+    margin-bottom: 2rem;
     text-align: center;
   }
 }
 
 /*Wrapper testimonials*/
 .profile-section {
-  padding-top: 2rem;
-  margin-bottom: 2rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  padding: 2rem 0 2rem;
+  margin: 2rem 1rem 2rem;
 }
 .column {
   padding-bottom: 15%;
@@ -340,7 +335,7 @@ nav {
   clear: both;
 }
 
-.profile-section .testimonials{
+.profile-section .testimonials {
   text-align: center;
   padding-top: 3rem;
   padding-bottom: 5%;
@@ -348,9 +343,9 @@ nav {
   letter-spacing: 4px;
 }
 
-.profile-section .testimonials h3{
+.profile-section .testimonials h3 {
   text-align: center;
-  padding-top: 40%;
+  padding-top: 50%;
   color: var(--grayish-blue);
   letter-spacing: 4px;
 }
@@ -359,7 +354,7 @@ nav {
   text-align: center;
 }
 
-.flex-item img{
+.flex-item img {
   border-radius: 50%;
   margin: 2rem;
   width: 5rem;
@@ -368,18 +363,19 @@ nav {
   margin-right: auto;
 }
 
-.flex-item .review{
+.flex-item .review {
   color: var(--dark-grayish-blue);
   font-weight: bolder;
+  padding: 2rem 3.5rem;
 }
 
-.flex-item .name{
+.flex-item .name {
   margin-top: 2rem;
   color: var(--very-dark-desaturated-blue);
   font-weight: 900;
 }
 
-.flex-item .job{
+.flex-item .job {
   margin-top: 0.4rem;
   color: var(--grayish-blue);
   font-size: smaller;
@@ -398,16 +394,15 @@ nav {
   }
 
   .profile-section .testimonials {
-    padding-top: 15%;
+    padding-top: 50%;
     padding-bottom: 10%;
   }
 
-  .profile-section .testimonials h3{
-    padding-top: 60vw;
+  .profile-section .testimonials h3 {
+    padding-top: 40rem;
     margin-top: 60rem;
   }
 }
-
 
 /* Quad Pic Section */
 
