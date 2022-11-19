@@ -1,4 +1,4 @@
-<h1 align="center"><a href="https://hyosssssun.github.io/sunnysideagency-mk//"><b>SunnySide Agency</b></a></h1>
+<h1 align="center"><a href="https://hyosssssun.github.io/sunnysideagency-mk/"><b>SunnySide Agency</b></a></h1>
 
 Codecademy MK chapter project following Frontend Mentor to learn how to work with team and improve my styling skills.
 
